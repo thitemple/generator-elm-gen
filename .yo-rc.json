@@ -1,0 +1,9 @@
+{
+  "generator-node": {
+    "promptValues": {
+      "authorName": "Thiago Temple",
+      "authorEmail": "thitemple@gmail.com",
+      "authorUrl": "https://templecoding.com"
+    }
+  }
+}
