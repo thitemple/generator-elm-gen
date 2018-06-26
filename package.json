@@ -1,16 +1,14 @@
 {
   "name": "generator-elm-gen",
-  "version": "0.0.0",
-  "description": "An opnionated generator for building Web applications using Elm, TypeScript, SASS and Webpack.",
-  "homepage": "",
+  "version": "0.1.0",
+  "description":
+    "An opinionated generator for building Web applications using Elm, TypeScript, SASS and Webpack.",
+  "homepage": "https://github.com/thitemple/generator-elm-gen",
   "author": {
     "name": "Thiago Temple",
-    "email": "thitemple@gmail.com",
     "url": "https://templecoding.com"
   },
-  "files": [
-    "generators"
-  ],
+  "files": ["generators"],
   "main": "generators/index.js",
   "keywords": [
     "elm",
@@ -52,20 +50,11 @@
     "test": "jest"
   },
   "lint-staged": {
-    "*.js": [
-      "eslint --fix",
-      "git add"
-    ],
-    "*.json": [
-      "prettier --write",
-      "git add"
-    ]
+    "*.js": ["eslint --fix", "git add"],
+    "*.json": ["prettier --write", "git add"]
   },
   "eslintConfig": {
-    "extends": [
-      "xo",
-      "prettier"
-    ],
+    "extends": ["xo", "prettier"],
     "env": {
       "jest": true,
       "node": true
@@ -79,9 +68,7 @@
         }
       ]
     },
-    "plugins": [
-      "prettier"
-    ]
+    "plugins": ["prettier"]
   },
   "repository": "thitemple/generator-elm-gen",
   "license": "MIT"
