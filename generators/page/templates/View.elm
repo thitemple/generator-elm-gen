@@ -10,4 +10,4 @@ import Routing.Route as Route
 view : Model -> Html Msg
 view model =
     div []
-        [ h1 "<%= module %>" ]
+        [ h4 [] [ text "<%= module %>" ] ]
